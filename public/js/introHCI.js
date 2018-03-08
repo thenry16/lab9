@@ -1,4 +1,4 @@
-'use strict';
+//'use strict';
 
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
@@ -20,6 +20,6 @@ function onServerResponse(data){
 
 // Function to format the CSS selector
 function getLabElementId(id){
-    var labElementId = '#lab_' + id;
+    var labElementId = '#lab-' + id;
     return labElementId;
 }
